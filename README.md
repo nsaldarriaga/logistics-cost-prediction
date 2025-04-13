@@ -35,10 +35,18 @@ Este proyecto contiene un dataset sintético diseñado para modelar y predecir c
 
 ---
 
+## 🔍 Highlights del Análisis Exploratorio y Feature Engineering
+
+- Confirmamos estacionalidad realista con picos de entregas en noviembre y diciembre (peak season simulada correctamente).
+- La distribución de costos logísticos es bimodal (2 y 4 USD), replicando tarifas escalonadas.
+- Se identificó una distribución desbalanceada del target `is_profitable`, reflejando que solo un pequeño porcentaje de paquetes es rentable bajo condiciones ideales.
+- Las nuevas variables creadas (`cost_per_kg`, `value_per_kg`, `profit_margin`) mostraron diferencias significativas entre envíos rentables y no rentables.
+- Las flags `is_heavy` e `is_high_value` aportaron valor explicativo sobre la influencia del peso y valor del paquete en la rentabilidad.
+
+---
+
 ## 🚀 Próximos pasos
 
-- Realizar análisis exploratorio (EDA)
-- Ingeniería de features
 - Entrenamiento de modelos de ML:
   - Clasificación (`is_profitable`)
   - Regresión (`delivery_cost`)
