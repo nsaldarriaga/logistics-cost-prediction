@@ -1,0 +1,17 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore model files if no querés versionarlos (opcional)
+# models/*.pkl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
