@@ -32,7 +32,7 @@ is_profitable: target binario calculado con lógica de negocio.
 
 --
 
-📦 Modelos Entrenados
+## 📦 Modelos Entrenados
 Debido a las limitaciones de tamaño de archivos en GitHub (máximo 100MB), el archivo .pkl del modelo entrenado no está incluido en este repositorio.
 
 Sin embargo, puedes reentrenar el modelo y generar tu propio archivo .pkl ejecutando el notebook notebooks/models_training.ipynb, donde encontrarás todo el proceso de entrenamiento, visualización de métricas y generación del modelo listo para producción.
