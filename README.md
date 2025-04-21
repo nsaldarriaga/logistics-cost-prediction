@@ -15,20 +15,20 @@ README.md: documentación principal del proyecto.
 
 ## 🧠 Variables del dataset
 
-package_id: ID único por paquete.
-customer_id: ID del cliente.
-customer_type: tipo de cliente (nuevo, frecuente, premium).
-delivery_date: fecha de entrega del paquete.
-delivery_days: días entre envío y entrega (distribución sesgada).
-package_value: valor del paquete en USD.
-package_weight_kg: peso del paquete en kilogramos.
-delivery_cost: costo del envío (distribución bimodal con picos en 2 y 4 USD).
-region: departamento real de Perú.
-zone: zona geográfica (Norte, Sur, Centro, Oriente, Sierra).
-provider: proveedor logístico ficticio.
-shipping_type: Normal o Express.
-is_peak_season: 1 si es noviembre o diciembre, 0 si no.
-is_profitable: target binario calculado con lógica de negocio.
+- package_id: ID único por paquete.
+- customer_id: ID del cliente.
+- customer_type: tipo de cliente (nuevo, frecuente, premium).
+- delivery_date: fecha de entrega del paquete.
+- delivery_days: días entre envío y entrega (distribución sesgada).
+- package_value: valor del paquete en USD.
+- package_weight_kg: peso del paquete en kilogramos.
+- delivery_cost: costo del envío (distribución bimodal con picos en 2 y 4 USD).
+- region: departamento real de Perú.
+- zone: zona geográfica (Norte, Sur, Centro, Oriente, Sierra).
+- provider: proveedor logístico ficticio.
+- shipping_type: Normal o Express.
+- is_peak_season: 1 si es noviembre o diciembre, 0 si no.
+- is_profitable: target binario calculado con lógica de negocio.
 
 --
 
@@ -55,7 +55,7 @@ Sin embargo, puedes reentrenar el modelo y generar tu propio archivo .pkl ejecut
 
 --
 
-⚙️ Tecnologías usadas
+## ⚙️ Tecnologías usadas
 - Python
 - Scikit-Learn
 - XGBoost
@@ -64,5 +64,5 @@ Sin embargo, puedes reentrenar el modelo y generar tu propio archivo .pkl ejecut
 
 --
 
-⚠️ Nota
+## ⚠️ Nota
 - El dataset utilizado es sintético, generado para fines educativos y de práctica de Machine Learning.
